@@ -1,0 +1,47 @@
+@import 'quasar.variables.scss';
+
+// app global css in SCSS form
+.data-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input-container {
+  max-width: 45rem;
+  width: available;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  margin-bottom: 25px;
+}
+
+.q-btn__wrapper {
+  padding: 0;
+}
+
+.large-font {
+  font-size: x-large;
+}
+
+.q-page-container {
+  margin-top: -10px;
+}
+
+.color-warning {
+  color: $warning;
+}
+
+.color-positive {
+  color: $positive;
+}
+
+.color-negative {
+  color: $negative;
+}
+
+.width-available {
+  width: available;
+  width: -moz-available;
+  width: -webkit-fill-available;
+}
